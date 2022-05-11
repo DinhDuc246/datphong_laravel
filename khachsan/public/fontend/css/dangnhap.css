@@ -1,0 +1,39 @@
+#logo{
+	padding-top: 0px;
+	float: left;
+	padding-bottom: 0px;
+
+}
+#menu ul{
+	list-style-type: none;
+	background: #1f568b;
+	text-align: center;
+	
+}
+#menu ul li{
+	color: #f1f1f1;
+	display: inline-block;
+	width: 120px;
+	height: 45px;
+	line-height: 50px;
+	position: relative;
+	border-bottom: 0px;
+}
+#menu ul li a{
+	color: #f1f1f1;
+	text-decoration: none;
+	display: block;
+
+}
+#menu ul li a:hover{
+	background: #f1f1f1;
+	color: #333;
+}
+#menu ul li  > .sub-menu{
+	display: none;
+	position: absolute;
+}
+#menu ul li:hover .sub-menu{
+	display: block;
+
+}

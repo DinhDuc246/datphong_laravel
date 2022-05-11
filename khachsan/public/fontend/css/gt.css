@@ -1,0 +1,256 @@
+
+
+.navbar{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+}
+.navbar li a {
+    color: black !important;
+}
+.navbar li a:hover {
+    color: red !important;
+}
+.navbar i:hover{
+  color: black;
+}
+.menu{
+  width: 250px;
+  margin-left: -30px;
+  line-height: 40px;  
+}
+.menu :hover a{
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+  margin-top: 0;
+}
+ul{
+  list-style: none;
+}
+.dn p{
+  width: 70%;
+  padding-left: 230px;
+}
+.dn img{
+  padding-left: 230px;
+  width: 70%;
+}
+.dn h6{
+  padding-left: 230px;
+}
+.dn ul li{
+  padding-left: 230px
+}
+
+.gt h2{
+  padding-left: 230px;
+  width: 70%;
+}
+.anhdn img{
+  width: 70%;
+ 
+}
+.anhdn p{
+  width: 70%;
+
+}
+.anh{
+  width: 70%;
+}
+.a1 img{
+  width: 70%;
+  height: auto;
+}
+#navbarSupportedContent{
+
+}
+.nav-item1 {
+  padding-left: 150px;
+
+}
+.nav-item{
+  padding-left: 70px;
+}
+.navbar{
+  width: 100%;
+ height: auto;
+ background-color: #B4FDB4; 
+ 
+  padding:0;
+  margin:0 auto;
+}
+.navbar li a {
+    color: black !important;
+}
+.navbar li a:hover {
+    color: red !important;
+}
+.navbar i:hover{
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+  margin-top: 0;
+}
+ul{
+  list-style: none;
+}
+#article{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  background-image: url();
+}
+#back1{
+  background-color: #B4FDB4;
+}
+#section{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+#section2{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+#section3{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
+
+}
+#back{
+  background-image: url(https://st.quantrimang.com/photos/image/2018/03/02/hinh-nen-26.jpg);
+  padding-bottom: 50px;
+}
+//dat phong
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* common css */
+body{ 
+  font-size: 13px; 
+  font-weight: 300;
+}
+a{
+  color: #589bc6;
+  text-decoration: none;
+}
+a:hover{color:#c9192e;}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.flex>li{
+  flex:1;
+  margin-right:16px;
+}
+.white{ 
+  display: block;
+  padding: 10px 0;
+  color: #fff; 
+  font-weight: 500;
+}
+.title{
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
+  letter-spacing: 1.4px;
+}
+button{
+  color: #fff;
+  font-size: 14px;
+  background-color:#c9192e;
+  border:none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+footer{
+  width: 100%;
+  height: 100%;
+  color: #8d9293;
+  background: #000000;
+}
+
+.bg-footer {
+    background-color: #33383c;
+    padding: 50px 0 30px;
+}
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.footer-link a {
+    color: #acacac;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #1bbc9b;
+}
+
+.contact-info {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.footer-social-icon {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.facebook {
+    background-color: #4e71a8;
+    color: #ffffff;
+}
+
+.twitter {
+    background-color: #55acee;
+    color: #ffffff;
+}
+
+.google {
+    background-color: #d6492f;
+    color: #ffffff;
+}
+
+.apple {
+    background-color: #424041;
+    color: #ffffff;
+}
+
+.footer-alt {
+    color: #acacac;
+}
+
+.footer-heading {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-heading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #1bbc9b;
+}
